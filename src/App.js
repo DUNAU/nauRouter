@@ -1,25 +1,57 @@
 import React from 'react';
 import logo from './logo.svg';
+import { Menu, Icon } from 'semantic-ui-react'
+import 'semantic-ui-css/semantic.min.css'
 import './App.css';
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { Home } from './pages/home'
+import { University } from './pages/university'
+import univercityList from './locations/univercity.json';
+import { City } from './pages/city'
+import { Administration } from './pages/administration'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Router className="App">
+      <Menu compact icon='labeled' className='mainMenu'>
+        <Menu.Item name='home'>
+          <Link to='/' className='items'>
+            <Icon name='home' />
+            Home
+          </Link>
+        </Menu.Item>
+        <Menu.Item name='university'>
+          <Link to='university'>
+            <Icon name='plane' />
+            NAU
+          </Link>
+        </Menu.Item>
+
+        <Menu.Item
+          name='city'
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Link to='city'>
+            <Icon name='users' />
+            City
+          </Link>
+        </Menu.Item>
+
+        <Menu.Item
+          name='administration'
+        >
+          <Link to='administration'>
+            <Icon name='user' />
+            Rectors
+          </Link>
+        </Menu.Item>
+      </Menu>
+      <Switch>
+        <Route path={`/university`} component={() => University(univercityList)} />
+        <Route path={`/city`} component={City} />
+        <Route path={`/administration`} component={Administration} />
+        <Route component={Home} />
+      </Switch>
+    </Router>
   );
 }
 
