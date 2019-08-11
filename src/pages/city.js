@@ -7,7 +7,7 @@ const CityPlace = (props) => {
     <h4>{list.name}</h4>
     <a href={`${list.location}`} target='_blanck'>{list.office}</a>
     <p>{list.director && `Староста: ${list.director}`}</p>
-    <a href={`tg://resolve?domain=${list.contact}`} target='_blanck'>{list.contact}</a>
+    <a href={`https://t.me/${list.contact}`} target='_blanck'>{list.contact}</a>
   </div>
 }
 
