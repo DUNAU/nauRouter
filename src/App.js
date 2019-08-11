@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import { Home } from './pages/home'
 import { University } from './pages/university'
 import univercityList from './locations/univercity.json';
+import cityList from './locations/city.json';
 import { City } from './pages/city'
 import { Administration } from './pages/administration'
 
@@ -47,7 +48,7 @@ function App() {
       </Menu>
       <Switch>
         <Route path={`/university`} component={() => University(univercityList)} />
-        <Route path={`/city`} component={City} />
+        <Route path={`/city`} component={() => City(cityList)} />
         <Route path={`/administration`} component={Administration} />
         <Route component={Home} />
       </Switch>
