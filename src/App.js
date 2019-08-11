@@ -11,10 +11,9 @@ import cityList from './locations/city.json';
 import { City } from './pages/city'
 import { Administration } from './pages/administration'
 
-function App() {
-  return (
-    <Router className="App">
-      <Menu compact icon='labeled' className='mainMenu'>
+
+const NavMenu = () => {
+  return <Menu compact icon='labeled' className='mainMenu'>
         <Menu.Item name='home'>
           <Link to='/' className='items'>
             <Icon name='home' />
@@ -46,12 +45,18 @@ function App() {
           </Link>
         </Menu.Item>
       </Menu>
+};
+
+function App() {
+  return (
+    <Router className="App">
       <Switch>
         <Route path={`/university`} component={() => University(univercityList)} />
         <Route path={`/city`} component={() => City(cityList)} />
         <Route path={`/administration`} component={Administration} />
         <Route component={Home} />
       </Switch>
+      <NavMenu />
     </Router>
   );
 }
