@@ -49,13 +49,15 @@ const NavMenu = () => {
 
 function App() {
   return (
-    <Router className="App">
-      <Switch>
-        <Route path={`/university`} component={() => University(univercityList)} />
-        <Route path={`/city`} component={() => City(cityList)} />
-        <Route path={`/administration`} component={Administration} />
-        <Route component={Home} />
-      </Switch>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path={`/university`} component={() => University(univercityList)} />
+          <Route path={`/city`} component={() => City(cityList)} />
+          <Route path={`/administration`} component={Administration} />
+          <Route component={Home} />
+        </Switch>
+      </div>
       <NavMenu />
     </Router>
   );

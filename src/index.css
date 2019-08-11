@@ -18,6 +18,10 @@ code {
   bottom: 0;
 }
 
+.App{
+  margin-bottom: 8vh;
+}
+
 .mainMenu{
   font-size: 2vh;
   display: flex;
