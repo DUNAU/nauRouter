@@ -8,9 +8,6 @@ p{
     font-family: 'Montserrat';
     font-style: normal;
 }
-body{
-    height: 1800px;
-}
 .header-text{
     text-align: center;
     padding: 25px 0;
@@ -26,6 +23,7 @@ main{
     grid-row-gap: 25px;
     padding: 0 25px;
     height: 100%;
+    margin-bottom: 7.5rem;
 }
 .institute-card{
     background: #FFFFFF;
@@ -34,7 +32,7 @@ main{
     margin: 1rem;
 }
 .institute-card p{
-    padding: 3% 3%;
+    padding: 3%;
 }
 .institute-card .title{
     font-size: 19px;
@@ -42,11 +40,12 @@ main{
 
 }
 .institute-card .name{
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bolder;
 }
 .institute-card .number{
-    font-size: 15px;
+    font-size: 14px;
+    padding-top: 0;
 }
 footer{
     height: 8%;
@@ -55,6 +54,19 @@ footer{
     position: fixed;
     bottom: 0;
     display: flex;
+}
+@media(min-width: 900px){
+    footer{
+        top:0;
+        height: 12%;
+    }
+    .item-img{
+        height: 20vh;
+        width: 20vh;
+    }
+    .cards{
+        margin-bottom: 0;
+    }
 }
 .footer-item{
     height: 100%;
@@ -69,8 +81,8 @@ footer{
     background-color: #00B0FF;
 }
 .item-img{
-    height: 32px;
-    width: 32px;
+    height: 7vw;
+    width: 7vw;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -81,12 +93,9 @@ footer{
     background-image: url('img/plane.png');
 }
 .city{
-    margin-top: .4rem;
     background-image: url('img/city.png');
-    transform: scale(1.2);
 }
 .item-text{
     color: white;
-    font-size: 24px;
-    margin-top: 5%;
+    font-size: 7wh;
 }

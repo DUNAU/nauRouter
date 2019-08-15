@@ -2,11 +2,11 @@ import React from 'react';
 
 const UnivercityPlace = (props) => {
   const { list } = props;
-  return <a class="institute-card" href={`${list.location}`}>
-    <p class="title">{`${list.office} ${list.name}`}</p>
+  return <div class="institute-card">
+    <a class="title" href={`${list.location}`}>{`${list.office} ${list.name}`}</a>
     <p class="name">{list.director}</p>
-    <p class="number">{list.phone}</p>
-  </a>
+    <a class="number"  href={`tel:${list.phone}`}>{list.phone}</a>
+  </div>
 }
 
 export const University = (list) => {
