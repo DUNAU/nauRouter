@@ -3,18 +3,20 @@ import { ListContent } from 'semantic-ui-react';
 
 const CityPlace = (props) => {
   const { list } = props;
-  return <div>
-    <h4>{list.name}</h4>
-    <a href={`${list.location}`}>{list.office}</a>
-    <p>{list.director && `Староста: ${list.director}`}</p>
-    <a href={`https://t.me/${list.contact}`}>{list.contact}</a>
+  return <div class="institute-card">
+    <p className="title"><b>{list.name}</b></p>
+    <a className="name" href={`${list.location}`}>{list.office}</a>
+    <p className="name">{list.director && `Староста: ${list.director}`}</p>
+    <a href={`https://t.me/${list.contact}`} className='name'>{list.contact}</a>
   </div>
 }
 
 export const City = (list) => {
   console.log(list);
   return <>
-    <h1>Гуртожитки</h1>
-    {list.map((x,id) => <CityPlace key={id} list={x} />)}
+    <p class="header-text">Студмістечко</p>
+    <div class="cards">
+      {list.map((x,id) => <CityPlace key={id} list={x} />)}
+    </div>
   </>;
 };
