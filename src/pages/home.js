@@ -1,5 +1,5 @@
 import React from 'react';
 
 export const Home = () => {
-  return <p class="header-text home">Студмістечко</p>
+  return <p class="header-text home">Путівник по НАУ</p>
 };
