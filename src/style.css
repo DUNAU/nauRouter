@@ -58,14 +58,18 @@ footer{
 @media(min-width: 900px){
     footer{
         top:0;
-        height: 12%;
+        height: 15%;
     }
     .item-img{
-        height: 20vh;
-        width: 20vh;
+        height: 1rem;
+        width: 1rem;
     }
     .cards{
         margin-bottom: 0;
+    }
+    .item-text{
+        margin-top: .5rem; 
+        font-size: 2rem;
     }
 }
 .footer-item{
