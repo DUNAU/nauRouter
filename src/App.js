@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Menu, Icon } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 import './App.css';
 import './style.css'
@@ -9,7 +7,10 @@ import { Home } from './pages/home'
 import { University } from './pages/university'
 import univercityList from './locations/univercity.json';
 import cityList from './locations/city.json';
+import channels from './locations/channels.json'
+import otherPlaces from './locations/other.json'
 import { City } from './pages/city'
+import { Other } from './pages/other'
 
 const NavMenu = () => {
   return <footer>
@@ -19,6 +20,10 @@ const NavMenu = () => {
     <Link to='university' className="footer-item">
         <div className="item-img plane"></div>
         <div className="item-text">NAU</div>
+        </Link>
+    <Link to='other' className="footer-item">
+        <div className="item-img other"></div>
+        <div className="item-text">Other</div>
         </Link>
     <Link to='/city' className="footer-item">
         <div className="item-img city"></div>
@@ -33,7 +38,8 @@ function App() {
         <Switch>
           <Route path={`/university`} component={() => University(univercityList)} />
           <Route path={`/city`} component={() => City(cityList)} />
-          <Route component={Home} />
+          <Route path={`/other`} component={() => Other(otherPlaces)} />
+          <Route component={() => Home(channels)} />
         </Switch>
       </div>
       <NavMenu />

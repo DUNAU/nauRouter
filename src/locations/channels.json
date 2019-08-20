@@ -1,0 +1,30 @@
+[
+  {
+    "title":"Студмістечко НАУ",
+    "link":"SM_NAU"
+  },
+  {
+    "title":"Студенська рада СРСМ",
+    "link":"nauchan_news"
+  },
+  {
+    "title":"Студенська рада НАУ",
+    "link":"studrada_nau"
+  },
+  {
+    "title":"NAU informal",
+    "link":"nauinformal"
+  },
+  {
+    "title":"NAU HUB",
+    "link":"nauhub"
+  },
+  {
+    "title":"Карта НАУ",
+    "link":"https://www.google.com/maps/d/u/0/viewer?mid=1uOVv3utHq0mzKiZixG_ujWCrRqc&ll=50.43769436571316%2C30.44066234999991&z=15"
+  },
+  {
+    "title":"BLAB NAU",
+    "link":"blabnau"
+  }
+]

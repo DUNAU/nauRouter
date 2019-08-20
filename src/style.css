@@ -29,14 +29,14 @@ main{
     background: #FFFFFF;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
     height: 100%;
-    margin: 1rem;
+    padding: 1rem;
 }
 .institute-card p{
     padding: 3%;
 }
 .institute-card .title{
     font-size: 19px;
-    font-weight: lighter;
+    font-weight: bold;
 
 }
 .institute-card .name{
@@ -48,7 +48,7 @@ main{
     padding-top: 0;
 }
 footer{
-    height: 8%;
+    height: 7%;
     width: 100%;
     background-color: #0091EA;
     position: fixed;
@@ -74,7 +74,7 @@ footer{
 }
 .footer-item{
     height: 100%;
-    width: 29%;
+    width: 22%;
     margin: 0 2%;
     padding: 1% 3%;
     display: flex;
@@ -98,6 +98,10 @@ footer{
 }
 .city{
     background-image: url('img/city.png');
+}
+.other{
+    filter: invert(1);
+    background-image: url('https://img.icons8.com/wired/64/000000/company.png');
 }
 .item-text{
     color: white;

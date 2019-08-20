@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Бюро перепусток",
+    "office": "",
+    "director": "",
+    "phone": "",
+    "location": "https://www.google.com/maps/dir//50.4407495,30.4309974/@50.4406248,30.4289707,17.79z/data=!4m2!4m1!3e2"
+  },
+  {
+    "name": "Студенське Бістро",
+    "office": "",
+    "director": "",
+    "phone": "",
+    "location": "https://www.google.com/maps/dir//50.4408801,30.4317763/@50.440721,30.4317436,17.39z/data=!4m2!4m1!3e2"
+  },
+  {
+    "name": "Дирекція СРСМ",
+    "office": "",
+    "director": "",
+    "phone": "",
+    "location": "https://www.google.com/maps/dir//50.43955,30.4339139/@50.4400012,30.4325789,17.39z/data=!4m2!4m1!3e2"
+  },
+  {
+    "name": "Спорткомплекс",
+    "office": "",
+    "director": "",
+    "phone": "",
+    "location": "https://www.google.com/maps/dir//50.4364593,30.4229388/@50.4360446,30.4236022,17.39z/data=!4m2!4m1!3e2"
+  },
+  {
+    "name": "ЦКМ",
+    "office": "",
+    "director": "",
+    "phone": "",
+    "location": "https://www.google.com/maps/dir//Art+and+Culture+Center+NAU/@50.4377749,30.427297,17.39z/data=!4m9!4m8!1m0!1m5!1m1!1s0x40d4cc19f5170f37:0xdf7cf6281dcde772!2m2!1d30.4273653!2d50.438853!3e2"
+  },
+  {
+    "name": "Медцентр НАУ",
+    "office": "",
+    "director": "",
+    "phone": "",
+    "location": "https://www.google.com/maps/dir//Medychnyy+Tsentr+Nau,+Dyrektsiya/@50.4391559,30.4308948,17.39z/data=!4m9!4m8!1m0!1m5!1m1!1s0x40d4cc19703e562f:0x1e76d6728ad83e62!2m2!1d30.433944!2d50.440235!3e2"
+  },
+  {
+    "name": "Наукова Технічна Бібліотека",
+    "office": "",
+    "director": "",
+    "phone": "",
+    "location": "https://www.google.com/maps/dir//50.4395901,30.4283411/@50.4394984,30.4295348,17.81z/data=!4m2!4m1!3e2"
+  },
+  {
+    "name": "Бібліотека молодших курсів",
+    "office": "",
+    "director": "",
+    "phone": "",
+    "location": "https://www.google.com/maps/dir//50.4383984,30.4337283/@50.4388019,30.4318488,17.81z/data=!4m2!4m1!3e2"
+  },
+  {
+    "name": "Сектор соціальних виплат планово-фінансового відділу",
+    "office": "1-235  1-242",
+    "director": "",
+    "phone": "",
+    "location": "https://www.google.com/maps/dir//50.4403137,30.4298337/@50.439528,30.4306969,17.81z/data=!4m2!4m1!3e2"
+  },
+  {
+    "name": "NAU HUB",
+    "office": "",
+    "director": "",
+    "phone": "",
+    "location": "https://www.google.com/maps/dir//NAU+HUB/@50.439528,30.4306969,17.81z/data=!4m9!4m8!1m0!1m5!1m1!1s0x0:0x62102e8144a6e931!2m2!1d30.4339465!2d50.439212!3e2"
+  },
+  {
+    "name": "Військово-мобілізаційний підрозділ",
+    "office": "1-313",
+    "director": "",
+    "phone": "",
+    "location": "https://www.google.com/maps/dir//50.4401187,30.4291419/@50.439528,30.4306969,17.81z/data=!4m2!4m1!3e2"
+  }
+]
