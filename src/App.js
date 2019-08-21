@@ -16,17 +16,17 @@ const NavMenu = () => {
   return <footer>
     <Link to='/' className="footer-item">
         <div className="item-img home"></div>
-        <div className="item-text">Home</div></Link>
+        <div className="item-text">Головна</div></Link>
     <Link to='university' className="footer-item">
         <div className="item-img plane"></div>
-        <div className="item-text">NAU</div>
+        <div className="item-text">НАУ</div>
         </Link>
     <Link to='/city' className="footer-item">
         <div className="item-img city"></div>
-        <div className="item-text">City</div></Link>
+        <div className="item-text">Cтудмістечко</div></Link>
     <Link to='other' className="footer-item">
         <div className="item-img other"></div>
-        <div className="item-text">Other</div>
+        <div className="item-text">Інше</div>
         </Link>
   </footer>
 };

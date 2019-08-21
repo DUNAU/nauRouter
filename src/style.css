@@ -58,18 +58,26 @@ footer{
 @media(min-width: 900px){
     footer{
         top:0;
-        height: 10%;
+        height:6%;
+    }
+    .head{
+        margin-top: 4rem !important;
     }
     .item-img{
-        height: 1rem;
-        width: 1rem;
+        display: none;
     }
     .cards{
-        margin-bottom: 0;
+        margin-bottom:0;
+        grid-template-columns: 33% 33% 33%;
+        align-items: center;
     }
     .item-text{
-        margin-top: .5rem; 
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+    .institute-card{
+        margin: 2rem;
+        display: grid;
+        align-items: center;
     }
 }
 .footer-item{

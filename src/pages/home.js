@@ -10,8 +10,8 @@ const Channel = (props) => {
 export const Home = (list) => {
   console.log(list);
   return <>
-    <p className="header-text"><b>Путівник по НАУ</b></p>
-    <p className="header-text" style={{'fontSize':'24px'}}>Підписуйтесь на інформаційні ресурси:</p>
+    <p className="header-text head"><b>Путівник по НАУ</b></p>
+    <p className="header-text" style={{'fontSize':'24px'}}>Підписуйтесь на ресурси:</p>
     <div className="cards">
       {list.map((x,id) => <Channel key={id} list={x} />)}
     </div>
