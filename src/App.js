@@ -23,7 +23,7 @@ const NavMenu = () => {
         </Link>
     <Link to='/city' className="footer-item">
         <div className="item-img city"></div>
-        <div className="item-text">Cтудмістечко</div></Link>
+        <div className="item-text">Cтудміст.</div></Link>
     <Link to='other' className="footer-item">
         <div className="item-img other"></div>
         <div className="item-text">Інше</div>
