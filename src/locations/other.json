@@ -1,5 +1,26 @@
 [
   {
+    "name": "Відділ по роботі зі студентами",
+    "office": "1-227",
+    "director": "Калініченко Олена Василівна",
+    "phone": "(044) 406 68 15",
+    "location": "https://www.google.com/maps/dir//50.4404863,30.4306906/@50.4398987,30.430991,17z/data=!4m2!4m1!3e2"
+  },
+  {
+    "name": "Дирекція СРСМ",
+    "office": "гурт. №3 каб. 3",
+    "director": "Туменюк Тетяна Володимирівна",
+    "phone": "(044) 497 40 04",
+    "location": "https://www.google.com/maps/dir//50.43955,30.4339139/@50.4400012,30.4325789,17.39z/data=!4m2!4m1!3e2"
+  },
+  {
+    "name": "Спорткомплекс",
+    "office": "17-6",
+    "director": "Ніколаєвич Дмитро Федорович",
+    "phone": "(044) 406 77 34",
+    "location": "https://www.google.com/maps/dir//50.4364593,30.4229388/@50.4360446,30.4236022,17.39z/data=!4m2!4m1!3e2"
+  },
+  {
     "name": "Бюро перепусток",
     "office": "",
     "director": "",
@@ -14,66 +35,66 @@
     "location": "https://www.google.com/maps/dir//50.4408801,30.4317763/@50.440721,30.4317436,17.39z/data=!4m2!4m1!3e2"
   },
   {
-    "name": "Дирекція СРСМ",
+    "name": "Ректорат",
     "office": "",
     "director": "",
     "phone": "",
-    "location": "https://www.google.com/maps/dir//50.43955,30.4339139/@50.4400012,30.4325789,17.39z/data=!4m2!4m1!3e2"
+    "location": "https://www.google.com/maps/dir//50.4402062,30.4296285/@50.4398987,30.430991,17z/data=!4m2!4m1!3e2"
   },
   {
-    "name": "Спорткомплекс",
-    "office": "",
-    "director": "",
-    "phone": "",
-    "location": "https://www.google.com/maps/dir//50.4364593,30.4229388/@50.4360446,30.4236022,17.39z/data=!4m2!4m1!3e2"
+    "name": "Автошкола НАУ",
+    "office": "3-102",
+    "director": "Брусило Юрій Володимирович",
+    "phone": "(044) 402 36 93",
+    "location": "https://www.google.com/maps/dir//50.4377667,30.4335552/@50.4392906,30.4314738,17z/data=!4m2!4m1!3e2"
   },
   {
     "name": "ЦКМ",
     "office": "",
-    "director": "",
-    "phone": "",
+    "director": "Антух Ігор Юрійович",
+    "phone": "(044) 497 40 22",
     "location": "https://www.google.com/maps/dir//Art+and+Culture+Center+NAU/@50.4377749,30.427297,17.39z/data=!4m9!4m8!1m0!1m5!1m1!1s0x40d4cc19f5170f37:0xdf7cf6281dcde772!2m2!1d30.4273653!2d50.438853!3e2"
   },
   {
     "name": "Медцентр НАУ",
     "office": "",
-    "director": "",
-    "phone": "",
+    "director": "Петлін Вадим Олександрович",
+    "phone": "(044) 497 40 22",
     "location": "https://www.google.com/maps/dir//Medychnyy+Tsentr+Nau,+Dyrektsiya/@50.4391559,30.4308948,17.39z/data=!4m9!4m8!1m0!1m5!1m1!1s0x40d4cc19703e562f:0x1e76d6728ad83e62!2m2!1d30.433944!2d50.440235!3e2"
   },
   {
     "name": "Наукова Технічна Бібліотека",
-    "office": "",
-    "director": "",
-    "phone": "",
+    "office": "8б-20",
+    "director": "Вахтован Вікторія Юріївна",
+    "phone": "(044) 406 70 37",
     "location": "https://www.google.com/maps/dir//50.4395901,30.4283411/@50.4394984,30.4295348,17.81z/data=!4m2!4m1!3e2"
   },
   {
     "name": "Бібліотека молодших курсів",
-    "office": "",
-    "director": "",
-    "phone": "",
+    "office": "8б-20",
+    "director": "Вахтован Вікторія Юріївна",
+    "phone": "(044) 406 70 37",
     "location": "https://www.google.com/maps/dir//50.4383984,30.4337283/@50.4388019,30.4318488,17.81z/data=!4m2!4m1!3e2"
   },
   {
-    "name": "Сектор соціальних виплат планово-фінансового відділу",
+    "name": "Сектор планування соціальних витрат. Планово-фінансовий відділ",
     "office": "1-235  1-242",
-    "director": "",
-    "phone": "",
+    "director": "Муравська Наталія Іванівна",
+    "phone": "(044) 406 74 72",
     "location": "https://www.google.com/maps/dir//50.4403137,30.4298337/@50.439528,30.4306969,17.81z/data=!4m2!4m1!3e2"
   },
   {
     "name": "NAU HUB",
     "office": "",
-    "director": "",
-    "phone": "",
+    "director": "Мельничук Олег Валерійович",
+    "phone": "097 897 48 20",
     "location": "https://www.google.com/maps/dir//NAU+HUB/@50.439528,30.4306969,17.81z/data=!4m9!4m8!1m0!1m5!1m1!1s0x0:0x62102e8144a6e931!2m2!1d30.4339465!2d50.439212!3e2"
   },
   {
     "name": "Військово-мобілізаційний підрозділ",
-    "office": "1-313",
-    "director": "",
-    "phone": "",
+    "office": "1-313 1-304",
+    "director": "Удовенко Олексанр Опанасович",
+    "phone": "(044) 497 52 87",
     "location": "https://www.google.com/maps/dir//50.4401187,30.4291419/@50.439528,30.4306969,17.81z/data=!4m2!4m1!3e2"
   }
 ]
