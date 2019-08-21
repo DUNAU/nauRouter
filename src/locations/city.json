@@ -10,49 +10,49 @@
     "name": "Гуртожиток 3",
     "office": "Гарматна 51",
     "director": "Самойленко Анна",
-    "contact": "samoilenko_ann",
+    "contact": "https://t.me/samoilenko_ann",
     "location": "https://www.google.com/maps/dir//50.4395978,30.4341996/@50.439676,30.3641053,12z/data=!3m1!4b1!4m2!4m1!3e2"
   },
   {
     "name": "Гуртожиток 4",
     "office": "Гарматна 53",
     "director": "Заєць Назарій",
-    "contact": "zayets_nazariy",
+    "contact": "https://t.me/zayets_nazariy",
     "location": "https://www.google.com/maps/dir//50.438894,30.4341352/@50.4321836,30.3840734,11.72z/data=!4m2!4m1!3e2"
   },
   {
     "name": "Гуртожиток 5",
     "office": "Борщагівська 193",
     "director": "Істратов Костянтин",
-    "contact": "+380500337321",
+    "contact": "tel:+380500337321",
     "location": "https://www.google.com/maps/dir//50.4414496,30.4338241/@50.4414925,30.3636673,12z/data=!3m1!4b1!4m2!4m1!3e2"
   },
   {
     "name": "Гуртожиток 6",
     "office": "Ніжинська 14",
     "director": "Гелетчук Владислав",
-    "contact": "Geletchuk",
+    "contact": "https://t.me/Geletchuk",
     "location": "https://www.google.com/maps/dir//50.4393074,30.4356775/@50.4394129,30.365634,12z/data=!3m1!4b1!4m2!4m1!3e2"
   },
   {
     "name": "Гуртожиток 7",
     "office": "Ніжинська 29A",
     "director": "Мельніченко Агдрій",
-    "contact": "IF0xl",
+    "contact": "https://t.me/IF0xl",
     "location": "https://www.google.com/maps/dir//50.4377529,30.4381585/@50.4377551,30.3682202,12z/data=!3m1!4b1!4m2!4m1!3e2"
   },
   {
     "name": "Гуртожиток 8",
     "office": "Ніжинська 29Б",
     "director": "Ригус Даніелла",
-    "contact": "daniella_rigus",
+    "contact": "https://t.me/daniella_rigus",
     "location": "https://www.google.com/maps/dir//50.438361,30.4382229/@50.4384239,30.3681372,12z/data=!3m1!4b1!4m2!4m1!3e2"
   },
   {
     "name": "Гуртожиток 9",
     "office": "Ніжинська 29Г",
     "director": "Сімонян Геворк",
-    "contact": "vramovich",
+    "contact": "https://t.me/vramovich",
     "location": "https://www.google.com/maps/dir//50.4379032,30.4390061/@50.4379868,30.3689584,12z/data=!3m1!4b1!4m2!4m1!3e2"
   },
   {
@@ -66,14 +66,14 @@
     "name": "Гуртожиток 11",
     "office": "Ніжинська 29Д",
     "director": "Міленін Юрій",
-    "contact": "yurii_milenin",
+    "contact": "https://t.me/yurii_milenin",
     "location": "https://www.google.com/maps/dir//50.4377879,30.4400146/@50.4379958,30.3699291,12z/data=!3m1!4b1!4m2!4m1!3e2"
   },
   {
     "name": "Гуртожиток 13",
     "office": "Ніжинська 29Е",
     "director": "Вова Вікторія",
-    "contact": "olivieshka",
+    "contact": "https://t.me/olivieshka",
     "location": "https://www.google.com/maps/dir//50.4383559,30.4409614/@50.4381614,30.3705883,12z"
   }
 ]

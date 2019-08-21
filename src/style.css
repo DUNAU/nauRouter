@@ -58,7 +58,7 @@ footer{
 @media(min-width: 900px){
     footer{
         top:0;
-        height: 15%;
+        height: 10%;
     }
     .item-img{
         height: 1rem;

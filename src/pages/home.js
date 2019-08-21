@@ -3,7 +3,7 @@ import React from 'react';
 const Channel = (props) => {
   const { list } = props;
   return <div className="institute-card">
-    <a href={`https://t.me/${list.link}`} className='title'>{list.title}</a>
+    <a href={list.link} className='title'>{list.title}</a>
   </div>
 }
 

@@ -21,13 +21,13 @@ const NavMenu = () => {
         <div className="item-img plane"></div>
         <div className="item-text">NAU</div>
         </Link>
+    <Link to='/city' className="footer-item">
+        <div className="item-img city"></div>
+        <div className="item-text">City</div></Link>
     <Link to='other' className="footer-item">
         <div className="item-img other"></div>
         <div className="item-text">Other</div>
         </Link>
-    <Link to='/city' className="footer-item">
-        <div className="item-img city"></div>
-        <div className="item-text">City</div></Link>
   </footer>
 };
 
