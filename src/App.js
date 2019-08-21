@@ -16,7 +16,7 @@ const NavMenu = () => {
   return <footer>
     <Link to='/' className="footer-item">
         <div className="item-img home"></div>
-        <div className="item-text">Головна</div></Link>
+        <div className="item-text">Канали</div></Link>
     <Link to='university' className="footer-item">
         <div className="item-img plane"></div>
         <div className="item-text">НАУ</div>
