@@ -7,6 +7,7 @@ const CityPlace = (props) => {
     <p className="title"><b>{list.name}</b></p>
     {list.office && <a className="name" href={`${list.location}`}>{list.office}</a>}
     {list.director && <p className="name">{`Староста: ${list.director}`}</p>}
+    <a href="https://t.me/SM_NAU" className="name">Канал студмістечка</a>
     <a href={list.contact} className='name'>{list.contact.split('/').pop()}</a>
   </div>
 }
