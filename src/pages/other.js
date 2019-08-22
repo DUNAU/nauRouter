@@ -5,6 +5,7 @@ const OtherPlace = (props) => {
   return <div className="institute-card">
     <a className="title" href={`${list.location}`}>{`${list.office} ${list.name}`}</a>
     {list.director && <p className="name">{`Контактна особа: ${list.director}`}</p>}
+    {list.channel && <a href={`https://t.me/${list.channel}`} className="name"><br/>Бот для зв'язку</a>}
     {list.phone && <a className="number" href={`tel:${list.phone}`}>{list.phone}</a>}
   </div>
 }
