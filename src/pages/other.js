@@ -11,7 +11,6 @@ const OtherPlace = (props) => {
 }
 
 export const Other = (list) => {
-  console.log(list);
   return <>
     <p className="header-text head">Інші місця</p>
     <div className="cards">

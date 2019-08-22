@@ -10,7 +10,6 @@ const UnivercityPlace = (props) => {
 }
 
 export const University = (list) => {
-  console.log(list);
   return <>
     <p className="header-text head">Інститути та факультети</p>
     <div className="cards">
