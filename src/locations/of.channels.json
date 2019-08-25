@@ -4,10 +4,6 @@
     "link":"https://www.google.com/maps/d/u/0/viewer?mid=1uOVv3utHq0mzKiZixG_ujWCrRqc&ll=50.43769436571316%2C30.44066234999991&z=15"
   },
   {
-    "title":"Національний авіаційний університет",
-    "link":"https://t.me/national_aviation_university"
-  },
-  {
     "title":"Студмістечко НАУ",
     "link":"https://t.me/SM_NAU"
   },
@@ -18,6 +14,10 @@
   {
     "title":"Студенська рада СРСМ",
     "link":"https://t.me/nau_srsm"
+  },
+  {
+    "title":"Національний авіаційний університет",
+    "link":"https://t.me/national_aviation_university"
   },
   {
     "title":"Відділ по роботі зі студентами",
